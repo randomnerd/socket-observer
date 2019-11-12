@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "pretty": true,
+        "esModuleInterop": true,
+        "lib": ["es6"],
+        "types": ["node", "jest"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "sourceMap": true,
+        "declaration": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "src/*.spec.ts"]
+}
